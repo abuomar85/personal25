@@ -1,0 +1,49 @@
+
+$primaryColor: #112055;
+$primaryTextColor:  #fff;
+$secondaryColor: #4f9d92;
+$secondaryTextColor:  #000;
+
+
+%box {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+}
+
+.box__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+
+}
+
+.box-primary {
+  @extend %box;
+  background-color: $primaryColor;
+  color: $primaryTextColor;
+  &:hover {
+    @extend .box-primary;
+    box-shadow: none;
+  }
+
+  &-lighter {
+    @extend .box-primary;
+    background-color: lighten($primaryColor, 20%);
+  }
+  &-darker {
+    @extend .box-primary;
+    background-color: darken($primaryColor, 10%);
+  }
+}
+
+.box-secondary {
+  @extend %box;
+  background-color: $secondaryColor;
+  color: $secondaryTextColor;
+  &:hover {
+    box-shadow: none;
+  }
+}

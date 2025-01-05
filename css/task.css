@@ -1,0 +1,35 @@
+.box-secondary, .box-primary, .box-primary-darker, .box-primary-darker:hover, .box-primary-lighter, .box-primary-lighter:hover, .box-primary:hover {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
+}
+
+.box__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.box-primary, .box-primary-darker, .box-primary-darker:hover, .box-primary-lighter, .box-primary-lighter:hover, .box-primary:hover {
+  background-color: #112055;
+  color: #fff;
+}
+.box-primary:hover, .box-primary-darker:hover, .box-primary-lighter:hover {
+  box-shadow: none;
+}
+.box-primary-lighter {
+  background-color: #2240aa;
+}
+.box-primary-darker {
+  background-color: rgb(8.5, 16, 42.5);
+}
+
+.box-secondary {
+  background-color: #4f9d92;
+  color: #000;
+}
+.box-secondary:hover {
+  box-shadow: none;
+}
