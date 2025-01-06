@@ -14,7 +14,7 @@
 
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -41,7 +41,7 @@ h3 {
 }
 
 a {
-    color: #357b70;
+    color: #24564e;
 }
 
 a:hover,
@@ -65,15 +65,15 @@ a.button {
     border: none; /* takes the font from outer container */
     display: inline-block;
     font-family: inherit; /* style the background color, font color, and text decoration (underlihne, etc.) of the button */
-    background-color: #357b70;
+    background-color: #24564e;
     color: white;
     text-decoration: none;    /* adds spacing to the buton */
     padding: 10px;
     border-radius: 3px;/* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     -webkit-transition-duration: 0.2s;
-         -o-transition-duration: 0.2s;
-            transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
     -webkit-transition-property: opacity;
     -o-transition-property: opacity;
     transition-property: opacity;
@@ -84,15 +84,15 @@ a.button {
     border: none; /* takes the font from outer container */
     display: inline-block;
     font-family: inherit; /* style the background color, font color, and text decoration (underlihne, etc.) of the button */
-    background-color: #357b70;
+    background-color: #24564e;
     color: white;
     text-decoration: none;    /* adds spacing to the buton */
     padding: 10px;
     border-radius: 3px;/* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     -webkit-transition-duration: 0.2s;
-         -o-transition-duration: 0.2s;
-            transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
     -webkit-transition-property: opacity;
     -o-transition-property: opacity;
     transition-property: opacity;
@@ -114,16 +114,16 @@ button:focus,
 
 .animate-hover:hover {
     -webkit-animation: bounce;
-            animation: bounce; /* Name of the animation from Animate.css */
+    animation: bounce; /* Name of the animation from Animate.css */
     -webkit-animation-duration: 1s;
-            animation-duration: 1s; /* Adjust animation duration */
+    animation-duration: 1s; /* Adjust animation duration */
 }
 
 .navigation-list li:hover {
     -webkit-animation: heartBeat;
-            animation: heartBeat;
+    animation: heartBeat;
     -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-duration: 1s;
 }
 
 .navigation-list {
@@ -144,14 +144,14 @@ button:focus,
 
 .page-header__item {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 200px;
-            flex: 0 1 200px;
+    -ms-flex: 0 1 200px;
+    flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     text-align: right;
 }
 
@@ -175,8 +175,8 @@ button:focus,
 
 .profile__text {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 100px;
-            flex: 1 1 100px;
+    -ms-flex: 1 1 100px;
+    flex: 1 1 100px;
 }
 
 .page-footer {
@@ -186,8 +186,8 @@ button:focus,
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -195,14 +195,14 @@ button:focus,
     -webkit-transition: -webkit-transform 0.2s ease;
     transition: -webkit-transform 0.2s ease;
     -o-transition: transform 0.2s ease;
-    transition: transform 0.2s ease;
-    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+    transition: transform 0.2s ease,
+    -webkit-transform 0.2s ease;
 }
 
 .social-media__element:hover {
     -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-            transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .grid {
@@ -260,8 +260,8 @@ button:focus,
 
 .grid__item:hover {
     -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .photo-container {
@@ -299,65 +299,65 @@ button:focus,
 
 .sun {
     -webkit-animation: 4s color-change infinite alternate linear;
-            animation: 4s color-change infinite alternate linear;
+    animation: 4s color-change infinite alternate linear;
 }
 
 .cloud-front {
     -webkit-animation: 30s cloud-move infinite alternate linear;
-            animation: 30s cloud-move infinite alternate linear;
+    animation: 30s cloud-move infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move-reverse {
     from {
         -webkit-transform: translate(446px, 48px);
-                transform: translate(446px, 48px);
+        transform: translate(446px, 48px);
     }
 
     to {
         -webkit-transform: translate(100px, 48px);
-                transform: translate(100px, 48px);
+        transform: translate(100px, 48px);
     }
 }
 
 @keyframes cloud-move-reverse {
     from {
         -webkit-transform: translate(446px, 48px);
-                transform: translate(446px, 48px);
+        transform: translate(446px, 48px);
     }
 
     to {
         -webkit-transform: translate(100px, 48px);
-                transform: translate(100px, 48px);
+        transform: translate(100px, 48px);
     }
 }
 
 @-webkit-keyframes cloud-move {
     from {
         -webkit-transform: translate(0, 50px);
-                transform: translate(0, 50px);
+        transform: translate(0, 50px);
     }
 
     to {
         -webkit-transform: translate(200px, 50px);
-                transform: translate(200px, 50px);
+        transform: translate(200px, 50px);
     }
 }
 
 @keyframes cloud-move {
     from {
         -webkit-transform: translate(0, 50px);
-                transform: translate(0, 50px);
+        transform: translate(0, 50px);
     }
 
     to {
         -webkit-transform: translate(200px, 50px);
-                transform: translate(200px, 50px);
+        transform: translate(200px, 50px);
     }
 }
 
 .cloud-back {
     -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
-            animation: 34s cloud-move-reverse infinite alternate linear;
+    animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 @media all and (max-width: 500px) {
