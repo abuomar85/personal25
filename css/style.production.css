@@ -195,8 +195,6 @@ button:focus,
     -webkit-transition: -webkit-transform 0.2s ease;
     transition: -webkit-transform 0.2s ease;
     -o-transition: transform 0.2s ease;
-    transition: transform 0.2s ease,
-    -webkit-transform 0.2s ease;
 }
 
 .social-media__element:hover {
@@ -220,8 +218,6 @@ button:focus,
     -webkit-transition: -webkit-transform 0.2s ease;
     transition: -webkit-transform 0.2s ease;
     -o-transition: transform 0.2s ease;
-    transition: transform 0.2s ease;
-    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
 }
 
 .grid__item:last-child {
